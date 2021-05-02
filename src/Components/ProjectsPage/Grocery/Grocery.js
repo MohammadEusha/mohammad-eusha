@@ -6,7 +6,7 @@ import grocery from '../../../images/store.png'
 const Grocery = () => {
     return (
         <div id="Grocery" className=" p-5 mt-5  m-5 pt-5  text-light">
-            <h1 className="text-center mb-5 pb-5">Grocery Store Details</h1>
+            <h1 style={{ color: "#f50057" }} className="text-center mb-5 pb-5">Grocery Store Details</h1>
             <Row >
                 <Col xs={12} md={6}>
                     <h1>Grocery Store</h1>

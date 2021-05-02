@@ -19,6 +19,7 @@ const Contact = () => {
         e.target.reset()
         Swal.fire(
             'Message Sent Successfully!',
+            '',
             'success'
         )
 
