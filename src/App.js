@@ -4,11 +4,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Projects from './Components/ProjectsPage/Projects/Projects';
 import Blog from './Components/BlogsPage/Blog/Blog';
-import Computer from './Components/ProjectsPage/Computer/Computer';
 import MyInfo from './Components/MyInfoPage/MyInfo/MyInfo';
 
 

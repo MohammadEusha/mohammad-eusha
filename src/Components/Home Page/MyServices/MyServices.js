@@ -1,7 +1,7 @@
 import { faMinus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Button, Card, CardDeck, Container } from 'react-bootstrap';
+import { Card, CardDeck, Container } from 'react-bootstrap';
 import front from '../../../images/frontend.jpg'
 import back from '../../../images/backend.jpg'
 import design from '../../../images/website design.jpg'

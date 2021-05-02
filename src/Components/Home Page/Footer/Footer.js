@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import FooterCol from './FooterCol';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faGooglePlusG, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import logo from "../../../images/coding (2).png"
 const Footer = () => {
     const ourAddress = [

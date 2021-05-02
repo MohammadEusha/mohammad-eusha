@@ -1,5 +1,4 @@
 import React from 'react';
-import Appbar from '../../Home Page/Appbar/Appbar';
 import BNav from '../BNav/BNav';
 
 const Blog = () => {

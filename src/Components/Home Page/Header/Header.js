@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import rImg from '../../../images/right-arrow (1).png'
 import lImg from '../../../images/left-arrow (1).png'
 import me from '../../../images/image 17 (1).png'
@@ -14,7 +14,7 @@ const Header = () => {
                 <h4 className="text-center pt-5  w3-container w3-center w3-animate-top" style={{ color: '#f50057' }}>Welcome To My World</h4>
                 <Row className=" d-flex align-items-center text-light offset-1 mt-5">
                     <Col className=" pt-5  w3-animate-zoom" md={6}>
-                        <h2 style={{ color: '#f50057' }}>Hello My Name Is</h2>
+                        <h2 style={{ color: '#f50057' }}>Hello , My Name Is</h2>
                         <h1>Mohammad Eusha</h1>
                         <Row>
                             <h3 className="pl-3">And I Am A</h3>

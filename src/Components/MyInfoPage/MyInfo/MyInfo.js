@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Carousel, Col, Row } from 'react-bootstrap';
-import Appbar from '../../Home Page/Appbar/Appbar';
 import r1 from '../../../images/Updated Resume 1-1.jpg'
 import r2 from '../../../images/Updated Resume 1-2.jpg'
 import INav from '../INav/INav';

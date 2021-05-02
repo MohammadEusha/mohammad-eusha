@@ -8,21 +8,11 @@ import Header from '../Header/Header';
 import MyProject from '../MyProject/MyProject';
 import MyServices from '../MyServices/MyServices';
 import MySkills from '../MySkills/MySkills';
-import BackParticle from '../../../Components/BackParticle/BackParticle'
-// function App1() {
-//     return (
-//         <div>
-//             <ParticleBackground />
-//             <Home />
-//         </div>
-//     );
-// }
 
 const Home = () => {
 
     return (
         <div style={{ backgroundColor: '#12161f', scrollBehavior: "smooth" }}>
-            {/* <BackParticle></BackParticle> */}
             <Appbar></Appbar>
             <Header></Header>
             <About></About>

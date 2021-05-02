@@ -2,7 +2,6 @@ import { faEnvelope, faMapMarkerAlt, faMinus, faMobileAlt, faUser } from '@forta
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import './Contact.css'
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2'
 const Contact = () => {
