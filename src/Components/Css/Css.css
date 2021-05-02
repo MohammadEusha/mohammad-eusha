@@ -1,0 +1,8 @@
+.header-bg {
+  height: 100%;
+  background-image: url(../../images/Headerbg.svg);
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+}
