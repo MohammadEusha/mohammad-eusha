@@ -37,35 +37,52 @@ const Contact = () => {
 
                     <p style={{ color: 'White' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi illum voluptate ab assumenda sequi inventore at id praesentium? Voluptatum ex nemo adipisci iure, in reiciendis inventore! Ipsam quas at repudiandae!</p>
 
-                    <div class="icons" style={{ paddingTop: '30px', color: 'white' }}>
-                        <div class="row1">
-                            <FontAwesomeIcon icon={faUser} style={{ color: '#f50057', fontSize: '40px' }} />
-                            <div class="info">
-                                <h3 class="head">Name</h3>
-                                <h3 class="sub-title">Mohammad Eusha</h3>
-                            </div>
-                        </div>
-                        <div class="row1">
-                            <FontAwesomeIcon icon={faMapMarkerAlt} style={{ color: '#f50057', fontSize: '40px' }} />
-                            <div class="info">
-                                <h3 class="head">Address</h3>
-                                <h3 class="sub-title">Khulna, bangladesh</h3>
-                            </div>
-                        </div>
-                        <div class="row1">
-                            <FontAwesomeIcon icon={faEnvelope} style={{ color: '#f50057', fontSize: '40px' }} />
-                            <div class="info">
-                                <h3 class="head">Email</h3>
-                                <h3 class="sub-title">eusha37@gmail.com</h3>
-                            </div>
-                        </div>
-                        <div class="row1">
-                            <FontAwesomeIcon icon={faMobileAlt} style={{ color: '#f50057', fontSize: '40px' }} />
-                            <div class="info">
-                                <h3 class="head">Phone</h3>
-                                <h3 class="sub-title">+880 1783628255</h3>
-                            </div>
-                        </div>
+                    <div style={{ paddingTop: '30px', color: 'white' }}>
+                        <Row>
+                            <Col className="pt-3" md={1}>
+                                <FontAwesomeIcon icon={faUser} style={{ color: '#f50057', fontSize: '40px' }} />
+                            </Col>
+                            <Col md={6}>
+                                <div>
+                                    <h3 class="head">Name</h3>
+                                    <h3 class="sub-title">Mohammad Eusha</h3>
+                                </div>
+                            </Col>
+
+                        </Row>
+                        <Row >
+                            <Col className="pt-3" md={1}>
+                                <FontAwesomeIcon icon={faMapMarkerAlt} style={{ color: '#f50057', fontSize: '40px' }} />
+                            </Col>
+                            <Col md={6}>
+                                <div>
+                                    <h3 class="head">Address</h3>
+                                    <h3 class="sub-title">Khulna, bangladesh</h3>
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className="pt-3" md={1}>
+                                <FontAwesomeIcon icon={faEnvelope} style={{ color: '#f50057', fontSize: '40px' }} />
+                            </Col>
+                            <Col md={6}>
+                                <div>
+                                    <h3 class="head">Email</h3>
+                                    <h3 class="sub-title">eusha37@gmail.com</h3>
+                                </div>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className="pt-3" md={1}>
+                                <FontAwesomeIcon icon={faMobileAlt} style={{ color: '#f50057', fontSize: '40px' }} />
+                            </Col>
+                            <Col md={6}>
+                                <div>
+                                    <h3 class="head">Phone</h3>
+                                    <h3 class="sub-title">+880 1783628255</h3>
+                                </div>
+                            </Col>
+                        </Row>
                     </div>
 
                 </Col>
@@ -95,7 +112,7 @@ const Contact = () => {
                     </div>
                 </Col>
             </Row>
-        </Container>
+        </Container >
     );
 };
 
