@@ -7,7 +7,7 @@ const MySkills = () => {
     return (
         <Container id="Skills" className="text-light mt-5 mb-5" fluid>
             <div className="text-center">
-                <h1>My Tech Skills</h1>
+                <h1 style={{ paddingTop: "100px" }}>My Tech Skills</h1>
                 <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}> What I know </span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
             </div>
             <Row className="text-light  mt-5">

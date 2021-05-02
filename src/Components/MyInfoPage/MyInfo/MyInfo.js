@@ -12,7 +12,7 @@ const MyInfo = () => {
             <div>
                 <INav></INav>
             </div>
-            <div style={{ backgroundColor: '#12161f', color: "white" }}>
+            <div style={{ backgroundColor: '#12161f', color: "white", paddingTop: "" }}>
                 <div className="mt-5 pt-5 pb-3 p-5" >
                     <Row>
                         <Col md={6}>

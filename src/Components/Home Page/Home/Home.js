@@ -21,7 +21,7 @@ import BackParticle from '../../../Components/BackParticle/BackParticle'
 const Home = () => {
 
     return (
-        <div style={{ backgroundColor: '#12161f' }}>
+        <div style={{ backgroundColor: '#12161f', scrollBehavior: "smooth" }}>
             {/* <BackParticle></BackParticle> */}
             <Appbar></Appbar>
             <Header></Header>

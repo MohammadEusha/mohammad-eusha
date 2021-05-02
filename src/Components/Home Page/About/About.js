@@ -10,7 +10,7 @@ const About = () => {
     return (
         <Container id="About" className="text-light mt-5 mb-5" fluid>
             <div className="text-center">
-                <h1>About Me</h1>
+                <h1 style={{ paddingTop: "100px" }}>About Me</h1>
                 <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}> Who I Am </span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
             </div>
             <Row className="d-flex align-items-center text-light offset-1 mt-5">

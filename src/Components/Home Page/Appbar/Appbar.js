@@ -13,11 +13,11 @@ const Appbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#Home"><strong>Home</strong></Nav.Link>
-                        <Nav.Link as={Link} to="/myInfo"><strong>About</strong></Nav.Link>
-                        <Nav.Link href="#Services" as={Link} to="/blogs"><strong>Blogs</strong></Nav.Link>
+                        <Nav.Link href="#About"><strong>About</strong></Nav.Link>
+                        {/* <Nav.Link href="#Services" as={Link} to="/blogs"><strong>Blogs</strong></Nav.Link> */}
                         <Nav.Link href="#Skills"><strong>Skills</strong></Nav.Link>
-                        <Nav.Link as={Link} to="/projects"><strong>Projects</strong></Nav.Link>
-                        <Nav.Link Link as={Link} to="/blogs"><strong>Blogs</strong></Nav.Link>
+                        <Nav.Link href="#Projects"><strong>Projects</strong></Nav.Link>
+                        <Nav.Link href="#Blogs"><strong>Blogs</strong></Nav.Link>
                         <Nav.Link href="#Contact"><strong>Contact</strong></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

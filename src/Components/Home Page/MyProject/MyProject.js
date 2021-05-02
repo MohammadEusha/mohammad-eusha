@@ -11,9 +11,9 @@ import { Link } from 'react-router-dom';
 import './MyProject.css'
 const MyProject = () => {
     return (
-        <Container className="text-light mt-5 mb-5" fluid>
+        <Container id="Projects" className="text-light mt-5 mb-5" fluid>
             <div className="text-center pt-5 pb-5">
-                <h1>My Projects</h1>
+                <h1 style={{ paddingTop: "100px" }}>My Projects</h1>
                 <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}>Latest Work</span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
             </div>
             <CardDeck>

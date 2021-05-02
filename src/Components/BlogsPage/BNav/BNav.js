@@ -7,13 +7,18 @@ const BNav = () => {
         <div>
             <Navbar style={{ backgroundColor: "#050c1a", color: "white" }} collapseOnSelect expand="lg" variant="dark" fixed="top" className="mb-5">
                 <img className="w3-spin" style={{ width: '50px' }} src={Icon} alt="" />
-                <Navbar.Brand href="#home"><strong className="pl-1"><span style={{ color: '#f50057' }}>Mohammad  Eusha</span></strong></Navbar.Brand>
+                <Navbar.Brand href="#home"><strong className="pl-1">Mohammad <span style={{ color: '#f50057' }}>Eusha</span></strong></Navbar.Brand>
                 <Navbar.Toggle style={{ backgroundColor: '#f50057' }} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link as={Link} to='/'><strong className="btn btn-outline text-light">Home</strong></Nav.Link>
+                        <Nav.Link as={Link} to='/home'><strong className="btn btn-outline-danger text-light">Home</strong></Nav.Link>
+                        <Nav.Link as={Link} to='/myInfo'><strong className="btn btn-outline-danger text-light">About</strong></Nav.Link>
+                        <Nav.Link as={Link} to='/projects'><strong className="btn btn-outline-danger text-light">Projects</strong></Nav.Link>
+
                         <Nav.Link href="#Frontend"><strong className="btn btn-outline-danger text-light" >Frontend Development</strong></Nav.Link>
+
                         <Nav.Link href="#Backend"><strong className="btn btn-outline-danger text-light">Backend Development</strong></Nav.Link>
+
                         <Nav.Link href="#Website"><strong className="btn btn-outline-danger text-light">Website Design</strong></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
