@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import rImg from '../../../images/right-arrow (1).png'
 import lImg from '../../../images/left-arrow (1).png'
@@ -6,14 +6,21 @@ import me from '../../../images/image 17 (1).png'
 import '../../Css/Css.css'
 import pdf from "../../../images/Updated Resume 1.pdf"
 import Typewriter from 'typewriter-effect';
-const Header = () => {
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+const Header = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
         <div id="Home" className="header-bg mt-5 pt-5">
             <Container className="text-light " fluid>
-                <h4 className="text-center pt-5  w3-container w3-center w3-animate-top" style={{ color: '#f50057' }}>Welcome To My World</h4>
+                <h4 data-aos="slide-down" className="text-center pt-5 " style={{ color: '#f50057' }}>Welcome To My World</h4>
                 <Row className=" d-flex align-items-center text-light offset-1 mt-5">
-                    <Col className=" pt-5  w3-animate-zoom" md={6}>
+                    <Col data-aos="slide-right" className=" pt-5" md={6}>
                         <h2 style={{ color: '#f50057' }}>Hello , My Name Is</h2>
                         <h1>Mohammad Eusha</h1>
                         <Row>
@@ -38,7 +45,7 @@ const Header = () => {
                         <a href={pdf} download> <button style={{ backgroundColor: '#f50057' }} className="btn btn-lg text-light mt-3">Download Resume</button></a>
 
                     </Col>
-                    <Col md={6}>
+                    <Col data-aos="slide-left" md={6}>
                         <img className="img-fluid mb-0 pb-0" src={me} alt="" />
                     </Col>
                 </Row>

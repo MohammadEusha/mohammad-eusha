@@ -6,7 +6,7 @@ import computer from '../../../images/computer.png'
 const Computer = () => {
     return (
         <div style={{ backgroundColor: '#12161f' }} id="Computer" className="p-5 mt-5  m-5 pt-5 text-light">
-            <h1 style={{ color: "#f50057" }} className="text-center mb-5 pb-5">Computer Garage Details</h1>
+            <h1 style={{ color: "#f50057", paddingTop: '100px' }} className="text-center mb-5 pb-5">Computer Garage Details</h1>
             <Row >
                 <Col xs={12} md={6}>
                     <h1 style={{ color: "#f50057" }}>Computer Garage</h1>

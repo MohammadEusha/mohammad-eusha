@@ -1,10 +1,21 @@
 import { faEnvelope, faMapMarkerAlt, faMinus, faMobileAlt, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Contact = () => {
+
+
+    useEffect(() => {
+
+        AOS.init({ duration: 2000 });
+
+    }, [])
     function sendEmail(e) {
 
 
@@ -27,11 +38,13 @@ const Contact = () => {
     return (
         <Container id="Contact" className="text-light mt-5 mb-5 pb-5" fluid>
             <div className="text-center">
-                <h1 style={{ paddingTop: "100px" }}>Contact Me</h1>
-                <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}>Let's Say HI</span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
+                <h1 data-aos="slide-left" style={{ paddingTop: "100px" }}>Contact Me</h1>
+                <div data-aos="slide-right">
+                    <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}>Let's Say HI</span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
+                </div>
             </div>
             <Row className="text-light offset-1 mt-5">
-                <Col md={5}>
+                <Col data-aos="zoom-out" md={5}>
                     <h2> Get in  <span style={{ color: '#f50057' }}>Touch</span><span style={{ color: '#f50057' }}>.</span></h2>
 
                     <p style={{ color: 'White' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi illum voluptate ab assumenda sequi inventore at id praesentium? Voluptatum ex nemo adipisci iure, in reiciendis inventore! Ipsam quas at repudiandae!</p>
@@ -85,7 +98,7 @@ const Contact = () => {
                     </div>
 
                 </Col>
-                <Col md={6}>
+                <Col data-aos="zoom-in" md={6}>
                     <div>
                         <div className="container">
                             <form onSubmit={sendEmail}>

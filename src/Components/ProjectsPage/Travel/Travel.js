@@ -6,7 +6,7 @@ import travel from '../../../images/city.png'
 const Travel = () => {
     return (
         <div id="Central" className=" p-5 mt-5  m-5 pt-5 text-light">
-            <h1 style={{ color: "#f50057" }} className="text-center mb-5 pb-5">Central City Travels Details</h1>
+            <h1 style={{ color: "#f50057", paddingTop: '100px' }} className="text-center mb-5 pb-5">Central City Travels Details</h1>
             <Row >
                 <Col xs={12} md={6}>
                     <h1 style={{ color: "#f50057" }}>Central City Travels</h1>

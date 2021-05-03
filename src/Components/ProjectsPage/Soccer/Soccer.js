@@ -5,7 +5,7 @@ import soccer from '../../../images/Soccer.png'
 const Soccer = () => {
     return (
         <div id="Soccer" className="p-5 mt-5  m-5 pt-5 text-light  pb-5">
-            <h1 style={{ color: "#f50057" }} className="text-center mb-5 pb-5">Soccer League Details</h1>
+            <h1 style={{ color: "#f50057", paddingTop: '100px' }} className="text-center mb-5 pb-5">Soccer League Details</h1>
             <Row>
                 <Col xs={12} md={6}>
                     <h1 style={{ color: "#f50057" }}>Soccer League</h1>
