@@ -1,4 +1,4 @@
-import { faEnvelope, faMapMarkerAlt, faMinus, faMobileAlt, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faChalkboardTeacher, faEnvelope, faMapMarkerAlt, faMinus, faMobileAlt, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -38,16 +38,20 @@ const Contact = () => {
     return (
         <Container id="Contact" className="text-light mt-5 mb-5 pb-5" fluid>
             <div className="text-center">
-                <h1 data-aos="slide-left" style={{ paddingTop: "100px" }}>Contact Me</h1>
-                <div data-aos="slide-right">
+                <h1 style={{ paddingTop: "100px" }}>Contact Me</h1>
+                <div >
                     <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}>Let's Say HI</span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
                 </div>
             </div>
             <Row className="text-light offset-1 mt-5">
-                <Col data-aos="zoom-out" md={5}>
+                <Col md={6}>
                     <h2> Get in  <span style={{ color: '#f50057' }}>Touch</span><span style={{ color: '#f50057' }}>.</span></h2>
 
-                    <p style={{ color: 'White' }}> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi illum voluptate ab assumenda sequi inventore at id praesentium? Voluptatum ex nemo adipisci iure, in reiciendis inventore! Ipsam quas at repudiandae!</p>
+                    <p style={{ color: 'White' }}>Are you looking for an independent , self-motivated, passionate and energetic professional Web Development expert with valuable experience in HTML / HTML 5 , CSS / CSS 3 , JavaScript , React JS or Web Designing?
+                    <br />
+                    Then I'm the guy you are looking for.I will fulfill all your expectations by providing high-quality professional work. And I know that you will get excellent and accurate results with 100% satisfaction.
+                    <br />
+                    Do you have any questions? Feel free to contact me.</p>
 
                     <div style={{ paddingTop: '30px', color: 'white' }}>
                         <Row>
@@ -98,24 +102,24 @@ const Contact = () => {
                     </div>
 
                 </Col>
-                <Col data-aos="zoom-in" md={6}>
+                <Col md={6}>
                     <div>
                         <div className="container">
                             <form onSubmit={sendEmail}>
                                 <div className="row pt-5">
-                                    <div className="col-8 form-group mx-auto">
+                                    <div className="col-10 form-group">
                                         <input style={{ border: '2px solid #f50057', backgroundColor: '#12161f', color: 'white' }} type="text" className="form-control" placeholder="Name" name="name" />
                                     </div>
-                                    <div className="col-8 form-group pt-2 mx-auto">
+                                    <div className="col-10 form-group pt-2">
                                         <input style={{ border: '2px solid #f50057', backgroundColor: '#12161f', color: 'white' }} type="email" className="form-control" placeholder="Email Address" name="email" />
                                     </div>
-                                    <div className="col-8 form-group pt-2 mx-auto">
+                                    <div className="col-10 form-group pt-2 ">
                                         <input style={{ border: '2px solid #f50057', backgroundColor: '#12161f', color: 'white' }} type="text" className="form-control" placeholder="Subject" name="subject" />
                                     </div>
-                                    <div className="col-8 form-group pt-2 mx-auto">
+                                    <div className="col-10 form-group pt-2">
                                         <textarea style={{ border: '2px solid #f50057', backgroundColor: '#12161f', color: 'white' }} className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                                     </div>
-                                    <div className="col-8 pt-3 mx-auto">
+                                    <div className="col-10 pt-3">
                                         <input type="submit" style={{ backgroundColor: "#f50057", color: 'white' }} className="btn btn-lg" value="Send Message"></input>
                                     </div>
                                 </div>

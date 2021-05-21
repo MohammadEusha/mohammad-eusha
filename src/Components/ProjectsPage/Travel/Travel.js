@@ -20,7 +20,7 @@ const Travel = () => {
                     </ul>
                     <h2 style={{ color: "#f50057" }}>Technology</h2>
                     <ul>
-                        <li>Frontend : HTML , CSS, Bootstrap, JavaScript, React JS</li>
+                        <li>Frontend : CSS, Bootstrap, JavaScript, React JS</li>
                         <li>Deploy Tools : Firebase, Github..</li>
                     </ul>
                     <h2 style={{ color: "#f50057" }}> Frameworks</h2>

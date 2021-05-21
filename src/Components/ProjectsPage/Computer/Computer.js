@@ -23,7 +23,7 @@ const Computer = () => {
                     </ul>
                     <h2 style={{ color: "#f50057" }}>Technology</h2>
                     <ul>
-                        <li>Frontend : HTML , CSS, Bootstrap, JavaScript, React JS</li>
+                        <li>Frontend : CSS, Bootstrap, JavaScript, React JS</li>
                         <li> Backend : NodeJS, Express, Postman, Mongo DB.</li>
                         <li>Deploy Tools : Firebase, Heroku, Github.</li>
                     </ul>

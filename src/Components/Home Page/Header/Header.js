@@ -2,13 +2,14 @@ import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import rImg from '../../../images/right-arrow (1).png'
 import lImg from '../../../images/left-arrow (1).png'
-import me from '../../../images/image 17 (1).png'
 import '../../Css/Css.css'
-import pdf from "../../../images/Updated Resume 1.pdf"
+import pdf from "../../../images/Resume.pdf"
 import Typewriter from 'typewriter-effect';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCloudDownloadAlt } from '@fortawesome/free-solid-svg-icons';
 
 
 const Header = () => {
@@ -18,9 +19,8 @@ const Header = () => {
     return (
         <div id="Home" className="header-bg mt-5 pt-5">
             <Container className="text-light " fluid>
-                <h4 data-aos="slide-down" className="text-center pt-5 " style={{ color: '#f50057' }}>Welcome To My World</h4>
                 <Row className=" d-flex align-items-center text-light offset-1 mt-5">
-                    <Col data-aos="slide-right" className=" pt-5" md={6}>
+                    <Col data-aos="zoom-out" className=" pt-5" md={6}>
                         <h2 style={{ color: '#f50057' }}>Hello , My Name Is</h2>
                         <h1>Mohammad Eusha</h1>
                         <Row>
@@ -30,7 +30,7 @@ const Header = () => {
                                 <h3>
                                     <Typewriter
                                         options={{
-                                            strings: ["Frontend Developer", "Backend Developer", "Website designer"],
+                                            strings: ["Frontend Developer", "Backend Developer", "Website Designer"],
                                             autoStart: true,
                                             loop: true,
                                         }}
@@ -42,11 +42,16 @@ const Header = () => {
 
 
                         </Row>
-                        <a href={pdf} download> <button style={{ backgroundColor: '#f50057' }} className="btn btn-lg text-light mt-3">Download Resume</button></a>
+                        <a href={pdf} download> <button style={{ backgroundColor: '#f50057' }} className="btn btn-lg text-light mt-3"> <FontAwesomeIcon icon={faCloudDownloadAlt} style={{ color: 'white' }} /> Download Resume</button></a>
 
                     </Col>
-                    <Col data-aos="slide-left" md={6}>
-                        <img className="img-fluid mb-0 pb-0" src={me} alt="" />
+                    <Col md={6}>
+                        <lottie-player
+                            src="https://assets5.lottiefiles.com/packages/lf20_1LhsaB.json"
+                            background="transparent"
+                            speed="1"
+                            loop
+                            autoplay></lottie-player>
                     </Col>
                 </Row>
             </Container>

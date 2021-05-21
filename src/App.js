@@ -6,7 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import Projects from './Components/ProjectsPage/Projects/Projects';
-import Blog from './Components/BlogsPage/Blog/Blog';
+
 import MyInfo from './Components/MyInfoPage/MyInfo/MyInfo';
 
 
@@ -19,9 +19,6 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects></Projects>
-        </Route>
-        <Route path="/blogs">
-          <Blog></Blog>
         </Route>
         <Route path="/myInfo">
           <MyInfo></MyInfo>

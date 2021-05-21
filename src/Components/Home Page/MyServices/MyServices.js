@@ -1,10 +1,10 @@
-import { faMinus } from '@fortawesome/free-solid-svg-icons';
+import { faChalkboardTeacher, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import { Card, CardDeck, Col, Container, Row } from 'react-bootstrap';
-import front from '../../../images/frontend.jpg'
-import back from '../../../images/backend.jpg'
-import design from '../../../images/website design.jpg'
+import Values from '../../../images/Values.jpeg'
+import JSX from '../../../images/JSX.png'
+import Arrays from '../../../images/Arrays.jpeg'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -20,67 +20,43 @@ const MyServices = () => {
 
         <Container id="Blogs" className="text-light mt-5 mb-5" fluid>
             <div className="text-center mb-5 pb-5">
-                <h1 data-aos="slide-right" style={{ paddingTop: "100px" }}>My Recent Blogs</h1>
-                <div data-aos="slide-left">
+                <h1 style={{ paddingTop: "100px" }}>My Recent Blogs</h1>
+                <div>
                     <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}> What I Think </span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
                 </div>
             </div>
             <CardDeck>
                 <Row>
-                    <Col data-aos="fade-up" md={4}>
-                        <Card className="mb-5 shadow focus h-100" style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
-                            <Card.Img className="h-50" variant="top" src={front} rounded />
+                    <Col className="mt-5" md={4}>
+                        <Card className=" shadow focus h-100 mb-5" style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
+                            <Card.Img variant="top" src={JSX} />
                             <Card.Body>
-                                <Card.Title>Frontend Development</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.
-                        </Card.Text>
+                                <Card.Title>JavaScript: Everything About JSX (Part 1)</Card.Title>
                             </Card.Body>
                             <Card.Footer>
-                                <Link style={{ textDecoration: 'none' }} to='/blogs'>
-                                    <button className="btn btn-lg btn-block text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
-                                        Learn More
-                        </button>
-                                </Link>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href="  https://eusha37.medium.com/javascrip-everything-about-jsx-part-1-7bc46ac2658f" target="_blank">  <button className="btn btn-lg btn-block text-light" style={{ backgroundColor: '#f50057' }} size="lg" block> <FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button></a>
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col data-aos="fade-down" md={4}>
-                        <Card className="mb-5 shadow focus h-100" style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
-                            <Card.Img className="h-50" variant="top" src={back} />
+                    <Col className="mt-5" md={4}>
+                        <Card className=" shadow focus h-100 mb-5" style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
+                            <Card.Img variant="top" src={Arrays} />
                             <Card.Body>
-                                <Card.Title>Backend Development</Card.Title>
-                                <Card.Text>
-                                    This card has supporting text below as a natural lead-in to additional content.
-                        </Card.Text>
+                                <Card.Title>JavaScript: Everything about arrays (Part 1).</Card.Title>
                             </Card.Body>
                             <Card.Footer>
-                                <Link style={{ textDecoration: 'none' }} to='/blogs'>
-                                    <button className="btn btn-lg btn-block text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
-                                        Learn More
-                        </button>
-                                </Link>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href="  https://eusha37.medium.com/javascript-everything-about-arrays-part-1-3e22babcf1ad" target="_blank">  <button className="btn btn-lg btn-block text-light" style={{ backgroundColor: '#f50057' }} size="lg" block> <FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button></a>
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col data-aos="fade-up" md={4}>
-                        <Card className="mb-5 shadow focus h-100" style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
-                            <Card.Img variant="top" src={design} />
+                    <Col className="mt-5" md={4}>
+                        <Card className=" shadow focus h-100 mb-5" style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
+                            <Card.Img variant="top" src={Values} rounded />
                             <Card.Body>
-                                <Card.Title>Website design</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This card has even longer content than the first to
-                                    show that equal height action.
-                                </Card.Text>
+                                <Card.Title>JavaScript: Truthy and Falsy Values In Condition</Card.Title>
                             </Card.Body>
                             <Card.Footer>
-                                <Link style={{ textDecoration: 'none' }} to='/blogs'>
-                                    <button className="btn btn-lg btn-block text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
-                                        Learn More
-                                    </button>
-                                </Link>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href="  https://eusha37.medium.com/javascript-truthy-and-falsy-values-in-condition-27e50242539c" target="_blank">  <button className="btn btn-lg btn-block text-light" style={{ backgroundColor: '#f50057' }} size="lg" block> <FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button></a>
                             </Card.Footer>
                         </Card>
                     </Col>

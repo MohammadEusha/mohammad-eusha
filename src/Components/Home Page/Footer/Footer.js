@@ -24,10 +24,10 @@ const Footer = () => {
                             <img className="transaction-area mb-3 w3-spin" style={{ height: "50px" }} src={logo} alt="" />
                             <h3 className=" pl-4 pt-2 text-light">Mohammad <span style={{ color: '#f50057' }}>  Eusha</span></h3>
                         </div>
-                        <p className="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio velit dignissimos quidem ipsa voluptatum numquam quis cupiditate quo, natus, illum laudantium? Esse eos, facilis tempore temporibus laboriosam odit asperiores?</p>
+
                     </div>
                     <FooterCol key={1} menuTitle="Services" menuItems={services} />
-                    <FooterCol key={2} menuTitle="Our Address" menuItems={ourAddress}>
+                    <FooterCol key={2} menuTitle="My Address" menuItems={ourAddress}>
                         <ul className="social-media list-inline">
                             <li className="list-inline-item"><a href=" https://www.facebook.com/abdullah.eusha.9" target="blank"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
                             <li className="list-inline-item"><a href=" https://github.com/MohammadEusha" target="blank"><FontAwesomeIcon className="icon active-icon" icon={faGithub} /></a></li>

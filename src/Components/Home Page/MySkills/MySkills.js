@@ -13,13 +13,13 @@ const MySkills = () => {
     return (
         <Container id="Skills" className="text-light mt-5 mb-5" fluid>
             <div className="text-center">
-                <h1 data-aos="slide-right" style={{ paddingTop: "100px" }}>My Tech Skills</h1>
-                <div data-aos="slide-left">
+                <h1 style={{ paddingTop: "100px" }}>My Tech Skills</h1>
+                <div >
                     <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} /> <span style={{ color: '#f50057', fontSize: "20px" }}> What I know </span> <FontAwesomeIcon icon={faMinus} style={{ color: 'white' }} />
                 </div>
             </div>
             <Row className="text-light  mt-5">
-                <Col data-aos="zoom-in" className="pt-5 pb-5 mb-5" md={4}>
+                <Col className="pt-5 pb-5 mb-5" md={4}>
                     <div class="w3-container">
                         <div className="mb-3 mt-3">
                             <h2 style={{ color: '#f50057' }} className="text-center pb-5">Frontend</h2>
@@ -105,7 +105,7 @@ const MySkills = () => {
                 </Col>
 
 
-                <Col data-aos="zoom-out" className="pt-5 pb-5 mb-5" md={4}>
+                <Col className="pt-5 pb-5 mb-5" md={4}>
                     <div class="w3-container">
                         <div className="mb-3 mt-3">
                             <h2 style={{ color: '#f50057' }} className="text-center  pb-5">Backend</h2>
@@ -152,7 +152,7 @@ const MySkills = () => {
 
 
 
-                <Col data-aos="zoom-in" className="pt-5 pb-5 mb-5" md={4}>
+                <Col className="pt-5 pb-5 mb-5" md={4}>
                     <div class="w3-container">
                         <div className="mb-3 mt-3">
                             <h2 style={{ color: '#f50057' }} className="text-center  pb-5">Hosting Platforms</h2>

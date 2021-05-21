@@ -12,8 +12,10 @@ import MySkills from '../MySkills/MySkills';
 const Home = () => {
 
     return (
-        <div style={{ backgroundColor: '#12161f', scrollBehavior: "smooth" }}>
-            <Appbar></Appbar>
+        <div style={{ backgroundColor: '#12161f' }}>
+            <div>
+                <Appbar></Appbar>
+            </div>
             <Header></Header>
             <About></About>
             <MySkills></MySkills>

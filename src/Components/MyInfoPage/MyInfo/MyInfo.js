@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel, Col, Row } from 'react-bootstrap';
-import r1 from '../../../images/Updated Resume 1-1.jpg'
-import r2 from '../../../images/Updated Resume 1-2.jpg'
+import r1 from '../../../images/Resume 1.png'
+import r2 from '../../../images/Resume 2.png'
 import INav from '../INav/INav';
-import pdf from "../../../images/Updated Resume 1.pdf"
+import pdf from "../../../images/Resume.pdf"
 const MyInfo = () => {
 
     return (
