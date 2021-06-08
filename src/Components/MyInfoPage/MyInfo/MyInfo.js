@@ -3,7 +3,7 @@ import { Carousel, Col, Row } from 'react-bootstrap';
 import r1 from '../../../images/Resume 1.png'
 import r2 from '../../../images/Resume 2.png'
 import INav from '../INav/INav';
-import pdf from "../../../images/Mohammad Eusha Resume.pdf"
+import pdf from "../../../images/MohammadEushaResume.pdf"
 const MyInfo = () => {
 
     return (
