@@ -24,7 +24,7 @@ const PNav = () => {
 
                         <Nav.Link href="#Soccer" ><strong className="btn btn-outline-danger text-light">Soccer League</strong></Nav.Link>
 
-                        <Nav.Link href="#Restaurant"><strong className="btn btn-outline-danger text-light">Restaurant</strong></Nav.Link>
+                        <Nav.Link href="#Restaurant"><strong className="btn btn-outline-danger text-light">Epic Eateries</strong></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

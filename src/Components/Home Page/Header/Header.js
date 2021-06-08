@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import rImg from '../../../images/right-arrow (1).png'
 import lImg from '../../../images/left-arrow (1).png'
 import '../../Css/Css.css'
-import pdf from "../../../images/Resume.pdf"
+import pdf from "../../../images/Mohammad Eusha Resume.pdf"
 import Typewriter from 'typewriter-effect';
 
 import AOS from 'aos';

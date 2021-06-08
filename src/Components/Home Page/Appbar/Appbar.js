@@ -7,10 +7,10 @@ const Appbar = () => {
         <div >
             <Navbar style={{ backgroundColor: "#050c1a", color: "white" }} collapseOnSelect expand="lg" variant="dark" fixed="top">
                 <img style={{ width: '50px' }} src={Icon} alt="" />
-                <Navbar.Brand href="#home"><strong className="pl-1">Mohammad <span style={{ color: '#f50057' }}>Eusha</span></strong></Navbar.Brand>
+                <Navbar.Brand href="#home"><strong className="pl-1 h4">Mohammad <span style={{ color: '#f50057' }}>Eusha</span></strong></Navbar.Brand>
                 <Navbar.Toggle style={{ backgroundColor: '#f50057' }} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto">
+                    <Nav className="ml-auto h5">
                         <Nav.Link href="#Home"><strong>Home</strong></Nav.Link>
                         <Nav.Link href="#About"><strong>About</strong></Nav.Link>
                         <Nav.Link href="#Skills"><strong>Skills</strong></Nav.Link>

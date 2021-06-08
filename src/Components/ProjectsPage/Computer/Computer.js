@@ -32,7 +32,7 @@ const Computer = () => {
                         <li>Bootstrap</li>
                     </ul>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} >
                     <img className="img-fluid" src={computer} alt="" />
                 </Col>
             </Row>

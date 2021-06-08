@@ -7,6 +7,7 @@ import grocery from '../../../images/store.png'
 import travel from '../../../images/city.png'
 import soccer from '../../../images/Soccer.png'
 import restaurants from '../../../images/resturant.png'
+import foods from '../../../images/Epic Eateries.png'
 import { Link } from 'react-router-dom';
 import './MyProject.css'
 
@@ -65,14 +66,31 @@ const MyProject = () => {
                                 <Link to="/projects" href="#Computer">
                                     <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="focus" md={4}>
+                        <Card className="mb-5 shadow " style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
+                            <Card.Img className="h-50" variant="top" src={foods} />
+                            <Card.Body>
+                                <Card.Title>Epic Eateries </Card.Title>
+                                <Card.Text>
+                                    The Website is about foods ordering services. In this site you will find some cards about names of foods, its prices and its descriptions . You will find a button in every card named as Order Now. Click on the button then login with your Google account and order your foods.
+                        </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="d-flex justify-content-center">
 
-
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://epic-eateries-238ce.web.app/" target="_blank"> <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Epic-Eateries" target="_blank"> <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
+                                <Link to="/projects" href="#Computer">
+                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                </Link>
                             </Card.Footer>
                         </Card>
                     </Col>
                     <Col className="focus" md={4}>
 
-                        <Card className="mb-5 shadow " style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
+                        <Card className="mb-5 mt-5 shadow " style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
                             <Card.Img variant="top" src={travel} className="h-50" />
                             <Card.Body>
                                 <Card.Title>Central City Travels</Card.Title>
@@ -114,24 +132,7 @@ const MyProject = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col className="focus" md={4}>
-                        <Card className="mb-5 mt-5 shadow " style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
-                            <Card.Img variant="top" src={restaurants} className="" />
-                            <Card.Body>
-                                <Card.Title>Restaurant</Card.Title>
-                                <Card.Text>
-                                    The Website is about Foods of a Restaurant.In this site you will at first find a search box.Write a food name what you want to take then click on search Icon.Then Enjoy.
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer className="d-flex justify-content-center">
-                                <a style={{ textDecoration: 'none', color: 'white' }} href="  https://mohammadeusha.github.io/Restaurant/" target="_blank">  <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>View Project</button></a>
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Restaurant" target="_blank">  <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>Source Code </button></a>
-                                <Link to="/projects" href="#Computer">
-                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
-                                </Link>
-                            </Card.Footer>
-                        </Card>
-                    </Col>
+
                 </Row>
 
             </CardDeck>
