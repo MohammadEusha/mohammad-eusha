@@ -42,10 +42,10 @@ const MyProject = () => {
                             </Card.Body>
                             <Card.Footer className="d-flex justify-content-center">
 
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://computer-repair-web.web.app/" target="_blank"><button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Computer-Garage" target="_blank"><button className="btn  btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >Source Code </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://computer-repair-web.web.app/" target="_blank"><button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Computer-Garage" target="_blank"><button className="btn  btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >Source Code </button></a>
                                 <Link to="/projects" href="#Computer">
-                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                    <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
                             </Card.Footer>
                         </Card>
@@ -57,14 +57,14 @@ const MyProject = () => {
                                 <Card.Title>Grocery Store </Card.Title>
                                 <Card.Text>
                                     The Website is about your daily grocery products.In this site you will at first find some cards about names of products,weight and prices.You will find a button in every card named as Buy Now.Click on the button then login with your Google account to order your products.
-                        </Card.Text>
+                                </Card.Text>
                             </Card.Body>
                             <Card.Footer className="d-flex justify-content-center">
 
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://grocery-store-client.web.app/" target="_blank"> <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Grocery-Store" target="_blank"> <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://grocery-store-client.web.app/" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Grocery-Store" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
                                 <Link to="/projects" href="#Computer">
-                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                    <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
                             </Card.Footer>
                         </Card>
@@ -76,14 +76,14 @@ const MyProject = () => {
                                 <Card.Title>Epic Eateries </Card.Title>
                                 <Card.Text>
                                     The Website is about foods ordering services. In this site you will find some cards about names of foods, its prices and its descriptions . You will find a button in every card named as Order Now. Click on the button then login with your Google account and order your foods.
-                        </Card.Text>
+                                </Card.Text>
                             </Card.Body>
                             <Card.Footer className="d-flex justify-content-center">
 
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://epic-eateries-238ce.web.app/" target="_blank"> <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Epic-Eateries" target="_blank"> <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://epic-eateries-pro.web.app/" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Epic-Eateries-Full-Stack" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
                                 <Link to="/projects" href="#Computer">
-                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                    <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
                             </Card.Footer>
                         </Card>
@@ -96,14 +96,14 @@ const MyProject = () => {
                                 <Card.Title>Central City Travels</Card.Title>
                                 <Card.Text>
                                     The Website is about Central City Travels . In this site you will at first find some cards about types of vehicles you want to go to your destination . You will find a button in every card named as Book Your Ride . Click on the button to Book and go to your destination.
-                        </Card.Text>
+                                </Card.Text>
                             </Card.Body>
                             <Card.Footer className="d-flex justify-content-center">
 
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://central-city-travel.web.app/" target="_blank">      <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>View Project    </button></a>
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Central-City-Travels" target="_blank">      <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>Source Code    </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://central-city-travel.web.app/" target="_blank">      <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>View Project    </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Central-City-Travels" target="_blank">      <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>Source Code    </button></a>
                                 <Link to="/projects" href="#Computer">
-                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                    <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
 
 
@@ -117,17 +117,17 @@ const MyProject = () => {
                                 <Card.Title>Soccer League</Card.Title>
                                 <Card.Text>
                                     The Website is about Soccer League.In this site you will at first find some cards about names of soccer leagues.You will find a button in every card named as Explore.Click on the button to see to see details..
-                        </Card.Text>
+                                </Card.Text>
                             </Card.Body>
                             <Card.Footer className="d-flex justify-content-center">
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://legendary-soccer-league.netlify.app/" target="_blank">  <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://legendary-soccer-league.netlify.app/" target="_blank">  <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
                                     View Project
-                            </button></a>
-                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Soccer-League" target="_blank">  <button className="btn btn-lg ml-3  text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
+                                </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Soccer-League" target="_blank">  <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} size="lg" block>
                                     Source Code
-                            </button></a>
+                                </button></a>
                                 <Link to="/projects" href="#Computer">
-                                    <button className="btn btn-lg ml-3 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                    <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
                             </Card.Footer>
                         </Card>

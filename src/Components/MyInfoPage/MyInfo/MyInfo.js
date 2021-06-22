@@ -3,7 +3,7 @@ import { Carousel, Col, Row } from 'react-bootstrap';
 import r1 from '../../../images/Resume 1.png'
 import r2 from '../../../images/Resume 2.png'
 import INav from '../INav/INav';
-import pdf from "../../../images/MohammadEushaResume.pdf"
+import pdf from "../../../images/Mohammad Eusha Resume.pdf"
 const MyInfo = () => {
 
     return (
@@ -17,7 +17,7 @@ const MyInfo = () => {
                         <Col md={6}>
                             <h3 style={{ color: "#f50057" }} >Full Stack Web Developer</h3>
                             <p>Hi, I'm Mohammad Eusha, an independent , self-
-                 motivated, passionate and energetic professional Web Development expert with valuable experience in HTML, CSS, Java Script ,React JS and Web Designing.</p>
+                                motivated, passionate and energetic professional Web Development expert with valuable experience in HTML, CSS, Java Script ,React JS and Web Designing.</p>
                             <h4 style={{ color: "#f50057", paddingTop: '20px' }}>Professional Skills</h4>
                             <ul>
                                 <li>Frontend Development</li>
@@ -69,8 +69,8 @@ const MyInfo = () => {
                         <Col md={6}>
                             <div style={{ color: "black" }}>
                                 <Row>
-                                    <Col md={7} className='d-flex align-items-end'> <h3 style={{ color: "#f50057" }} >My Resume</h3></Col>
-                                    <Col md={3}>  <a href={pdf} download> <button style={{ backgroundColor: '#f50057' }} className="btn btn-lg text-light mt-3">Download It</button></a></Col>
+                                    <Col md={6} className='d-flex align-items-end'> <h3 style={{ color: "#f50057" }} >My Resume</h3></Col>
+                                    <Col md={4}>  <a href={pdf} download> <button style={{ backgroundColor: '#f50057' }} className="btn btn-lg text-light mt-3 ml-5 ">Download It</button></a></Col>
 
                                 </Row>
                                 <Carousel className="d-block w-75" fade>

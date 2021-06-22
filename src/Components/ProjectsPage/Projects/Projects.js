@@ -17,9 +17,9 @@ const Projects = () => {
                 <Col sm={12} md={12}>
                     <Computer></Computer>
                     <Grocery></Grocery>
+                    <Restaurant></Restaurant>
                     <Travel></Travel>
                     <Soccer></Soccer>
-                    <Restaurant></Restaurant>
                 </Col>
             </Row>
         </div>

@@ -32,14 +32,13 @@ const About = () => {
                         <FontAwesomeIcon icon={faTerminal} style={{ color: '#f50057', marginLeft: '10px', marginRight: '10px', fontSize: "38px" }} />
                         <h2 style={{ color: '#f50057', marginLeft: "6px" }}>  <Typewriter
                             options={{
-                                strings: ["Full Stack Developer", "Web Designer"],
+                                strings: ["MERN Stack Developer"],
                                 autoStart: true,
                                 loop: true,
                             }}
                         /></h2>
                     </Row>
-
-                    <p className="mr-5">Hi, I'm Mohammad Eusha, an independent , self-motivated, passionate and energetic professional Web Development expert with valuable experience in HTML / HTML 5, CSS / CSS 3, Java Script ,React JS and Web Designing.</p>
+                    <p className="mr-5">Hi, I'm Mohammad Eusha, an independent , self-motivated, passionate and energetic professional Web Development expert with valuable experience in HTML5, CSS3, Java Script ,React JS, Redux JS, Node JS, Express JS, MongoDB, API, JSON, React Native, TypeScript, SASS, Bootstrap5, React Bootstrap, Material UI, VS Code, NPM, Chrome DEV Tool, GitHub, Firebase, Netlify, Heroku.</p>
                     <Link to="myInfo">  <button style={{ backgroundColor: '#f50057' }} className="btn btn-lg text-light mt-3"> <FontAwesomeIcon icon={faChalkboardTeacher} style={{ color: 'white' }} /> Learn More</button></Link>
                 </Col>
             </Row>

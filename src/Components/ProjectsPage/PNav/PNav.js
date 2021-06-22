@@ -20,11 +20,13 @@ const PNav = () => {
 
                         <Nav.Link href="#Grocery"><strong className="btn btn-outline-danger text-light">Grocery Store</strong></Nav.Link>
 
+                        <Nav.Link href="#Restaurant"><strong className="btn btn-outline-danger text-light">Epic Eateries</strong></Nav.Link>
+
                         <Nav.Link href="#Central"><strong className="btn btn-outline-danger text-light">Central City Travels</strong></Nav.Link>
 
                         <Nav.Link href="#Soccer" ><strong className="btn btn-outline-danger text-light">Soccer League</strong></Nav.Link>
 
-                        <Nav.Link href="#Restaurant"><strong className="btn btn-outline-danger text-light">Epic Eateries</strong></Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

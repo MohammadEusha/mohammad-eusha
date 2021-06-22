@@ -48,10 +48,10 @@ const Contact = () => {
                     <h2> Get in  <span style={{ color: '#f50057' }}>Touch</span><span style={{ color: '#f50057' }}>.</span></h2>
 
                     <p style={{ color: 'White' }}>Are you looking for an independent , self-motivated, passionate and energetic professional Web Development expert with valuable experience in HTML / HTML 5 , CSS / CSS 3 , JavaScript , React JS or Web Designing?
-                    <br />
-                    Then I'm the guy you are looking for.I will fulfill all your expectations by providing high-quality professional work. And I know that you will get excellent and accurate results with 100% satisfaction.
-                    <br />
-                    Do you have any questions? Feel free to contact me.</p>
+                        <br />
+                        Then I'm the guy you are looking for.I will fulfill all your expectations by providing high-quality professional work. And I know that you will get excellent and accurate results with 100% satisfaction.
+                        <br />
+                        Do you have any questions? Feel free to contact me.</p>
 
                     <div style={{ paddingTop: '30px', color: 'white' }}>
                         <Row>

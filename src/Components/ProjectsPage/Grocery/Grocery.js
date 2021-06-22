@@ -15,8 +15,10 @@ const Grocery = () => {
                     <ul>
                         <li> Google Sign-In</li>
                         <li>Admin Panel</li>
-                        <li>Product Add System</li>
-                        <li> Dashboard</li>
+                        <li>Customer Panel</li>
+                        <li> Food Add System</li>
+                        <li>Customer Review System</li>
+                        <li>Stripe Payment System</li>
                     </ul>
                     <h2 style={{ color: "#f50057" }}>Technology</h2>
                     <ul>

@@ -12,22 +12,22 @@ const Restaurant = () => {
 
                     <h2 style={{ color: "#f50057" }}>Features</h2>
                     <ul>
-                        <li> Google Sign-In Method</li>
-                        <li>Stripe Payment  System</li>
-                        <li>Customer Selected Food Order System</li>
-                        <li> Responsive Website</li>
-                        <li>Smooth Scrolling</li>
+                        <li> Google Sign-In</li>
+                        <li>Admin Panel</li>
+                        <li>Customer Panel</li>
+                        <li> Food Add System</li>
+                        <li>Customer Review System</li>
+                        <li>Stripe Payment System</li>
 
                     </ul>
                     <h2 style={{ color: "#f50057" }}>Technology</h2>
                     <ul>
-                        <li>Frontend : CSS, JavaScript, React JS, React Redux, React Router, React Hook Form</li>
+                        <li>Frontend : CSS, Bootstrap, React Bootstrap, JavaScript, React JS, React Redux, Redux Thunk</li>
                         <li> Backend : NodeJS, Express, Postman, Mongo DB.</li>
                         <li>Deploy Tools : Firebase Github.</li>
                     </ul>
                     <h2 style={{ color: "#f50057" }}>Frameworks</h2>
                     <ul>
-                        <li>React Bootstrap</li>
                         <li>Bootstrap</li>
                     </ul>
                 </Col>

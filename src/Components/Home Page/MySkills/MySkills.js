@@ -51,7 +51,33 @@ const MySkills = () => {
                         <div className="mb-3 mt-3">
                             <Row>
                                 <Col xs={8} md={10}>
+                                    <h3 class="w3-text-white">SASS</h3>
+                                </Col>
+                                <Col xs={2} md={2}>
+                                    <h3 class="w3-text-pink">70%</h3>
+                                </Col>
+                            </Row>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-pink w3-round-large" style={{ width: '70%', height: '10px' }}> </div>
+                            </div>
+                        </div>
+                        <div className="mb-3 mt-3">
+                            <Row>
+                                <Col xs={8} md={10}>
                                     <h3 class="w3-text-white">JavaScript</h3>
+                                </Col>
+                                <Col xs={2} md={2}>
+                                    <h3 class="w3-text-pink">80%</h3>
+                                </Col>
+                            </Row>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-pink w3-round-large" style={{ width: '80%', height: '10px' }}> </div>
+                            </div>
+                        </div>
+                        <div className="mb-3 mt-3">
+                            <Row>
+                                <Col xs={8} md={10}>
+                                    <h3 class="w3-text-white">TypeScript</h3>
                                 </Col>
                                 <Col xs={2} md={2}>
                                     <h3 class="w3-text-pink">80%</h3>
@@ -77,6 +103,19 @@ const MySkills = () => {
                         <div className="mb-3 mt-3">
                             <Row>
                                 <Col xs={8} md={10}>
+                                    <h3 class="w3-text-white">React Native</h3>
+                                </Col>
+                                <Col xs={2} md={2}>
+                                    <h3 class="w3-text-pink">80%</h3>
+                                </Col>
+                            </Row>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-pink w3-round-large" style={{ width: '80%', height: '10px' }}> </div>
+                            </div>
+                        </div>
+                        <div className="mb-3 mt-3">
+                            <Row>
+                                <Col xs={8} md={10}>
                                     <h3 class="w3-text-white">Bootstrap</h3>
                                 </Col>
                                 <Col xs={2} md={2}>
@@ -85,6 +124,19 @@ const MySkills = () => {
                             </Row>
                             <div class="w3-light-grey w3-round-xlarge">
                                 <div class="w3-container w3-pink w3-round-large" style={{ width: '90%', height: '10px' }}> </div>
+                            </div>
+                        </div>
+                        <div className="mb-3 mt-3">
+                            <Row>
+                                <Col xs={8} md={10}>
+                                    <h3 class="w3-text-white">Tailwind</h3>
+                                </Col>
+                                <Col xs={2} md={2}>
+                                    <h3 class="w3-text-pink">80%</h3>
+                                </Col>
+                            </Row>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-pink w3-round-large" style={{ width: '80%', height: '10px' }}> </div>
                             </div>
                         </div>
                         <div className="mb-3 mt-3">
