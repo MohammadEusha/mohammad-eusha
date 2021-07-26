@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import Blog from '../blog/blog';
 import Computer from '../Computer/Computer';
 import Grocery from '../Grocery/Grocery';
 import PNav from '../PNav/PNav';
@@ -18,6 +19,7 @@ const Projects = () => {
                     <Computer></Computer>
                     <Grocery></Grocery>
                     <Restaurant></Restaurant>
+                    <Blog></Blog>
                     <Travel></Travel>
                     <Soccer></Soccer>
                 </Col>

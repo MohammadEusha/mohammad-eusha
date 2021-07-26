@@ -2,7 +2,7 @@ import { faChalkboardTeacher, faMinus, faTerminal } from '@fortawesome/free-soli
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import me from '../../../images/PortFolio1.png'
+import me from '../../../images/MohammadEusha.png'
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';

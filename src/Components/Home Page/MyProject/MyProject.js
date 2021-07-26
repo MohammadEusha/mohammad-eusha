@@ -6,7 +6,7 @@ import computer from '../../../images/computer.png'
 import grocery from '../../../images/store.png'
 import travel from '../../../images/city.png'
 import soccer from '../../../images/Soccer.png'
-import restaurants from '../../../images/resturant.png'
+import blog from '../../../images/BlogWebsite.png'
 import foods from '../../../images/Epic Eateries.png'
 import { Link } from 'react-router-dom';
 import './MyProject.css'
@@ -82,6 +82,25 @@ const MyProject = () => {
 
                                 <a style={{ textDecoration: 'none', color: 'white' }} href=" https://epic-eateries-pro.web.app/" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
                                 <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Epic-Eateries-Full-Stack" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
+                                <Link to="/projects" href="#Computer">
+                                    <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
+                                </Link>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col className="focus" md={4}>
+                        <Card className="mb-5 mt-5 shadow " style={{ backgroundColor: '#050c1a', border: '3px solid #f50057', borderRadius: '10px' }}>
+                            <Card.Img className="h-50" variant="top" src={blog} />
+                            <Card.Body>
+                                <Card.Title>Retro Tech Diary</Card.Title>
+                                <Card.Text>
+                                    This is a blog website which is about Retro Tech. If you want to read blogs about retro tech at first you will have to sign up. Then you will find some cards which is about retro tech blog. If you find any blog interesting and want to read the full blog then you have to click on the card.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer className="d-flex justify-content-center">
+
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://retro-tech-blog.web.app/" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >View Project  </button></a>
+                                <a style={{ textDecoration: 'none', color: 'white' }} href=" https://github.com/MohammadEusha/Retro-Tech-Diary" target="_blank"> <button className="btn btn-lg mx-2  text-light" style={{ backgroundColor: '#f50057' }} >Source Code  </button></a>
                                 <Link to="/projects" href="#Computer">
                                     <button className="btn btn-lg mx-2 text-light" style={{ backgroundColor: '#f50057' }} >About Project</button>
                                 </Link>
